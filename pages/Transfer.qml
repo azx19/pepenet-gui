@@ -915,7 +915,7 @@ Rectangle {
             tooltip: {
                 var header = qsTr("Required for cold wallets to sign their corresponding key images") + translationManager.emptyString;
                 return "<style type='text/css'>.header{ font-size: 13px; } p{line-height:20px; margin-top:0px; margin-bottom:0px; " +
-                       ";} p.orange{color:#ff9323;}</style>" +
+                       ";} p.pepeGreen{color:#ff9323;}</style>" +
                        "<div class='header'>" + header + "</div>" +
                        "<p>" + qsTr("1. Using view-only wallet, export the outputs into a file") + "</p>" +
                        "<p>" + qsTr("2. Using cold wallet, import the outputs file") + "</p>" +
@@ -941,11 +941,11 @@ Rectangle {
             tooltip: {
                 var errorMessage = "";
                 if (appWindow.viewOnly && !appWindow.isTrustedDaemon()){
-                    errorMessage = "<p class='orange'>" + qsTr("* To import, you must connect to a local node or a trusted remote node") + "</p>";
+                    errorMessage = "<p class='pepeGreen'>" + qsTr("* To import, you must connect to a local node or a trusted remote node") + "</p>";
                 }
                 var header = qsTr("Required for view-only wallets to display the real balance") + translationManager.emptyString;
                 return "<style type='text/css'>.header{ font-size: 13px; } p{line-height:20px; margin-top:0px; margin-bottom:0px; " +
-                       ";} p.orange{color:#ff9323;}</style>" +
+                       ";} p.pepeGreen{color:#ff9323;}</style>" +
                        "<div class='header'>" + header + "</div>" +
                        "<p>" + qsTr("1. Using cold wallet, export the key images into a file") + "</p>" +
                        "<p>" + qsTr("2. Using view-only wallet, import the key images file") + "</p>" +
@@ -980,11 +980,11 @@ Rectangle {
             tooltip: {
                 var errorMessage = "";
                 if (appWindow.viewOnly && !pageRoot.checkInformation()) {
-                    errorMessage = "<p class='orange'>" + qsTr("* To create a transaction file, please enter address and amount above") + "</p>";
+                    errorMessage = "<p class='pepeGreen'>" + qsTr("* To create a transaction file, please enter address and amount above") + "</p>";
                 }
                 var header = qsTr("Spend XMR from a cold (offline) wallet") + translationManager.emptyString;
                 return "<style type='text/css'>.header{ font-size: 13px; } p{line-height:20px; margin-top:0px; margin-bottom:0px; " +
-                       ";} p.orange{color:#ff9323;}</style>" +
+                       ";} p.pepeGreen{color:#ff9323;}</style>" +
                        "<div class='header'>" + header + "</div>" +
                        "<p>" + qsTr("1. Using view-only wallet, export the outputs into a file") + "</p>" +
                        "<p>" + qsTr("2. Using cold wallet, import the outputs file and export the key images") + "</p>" +

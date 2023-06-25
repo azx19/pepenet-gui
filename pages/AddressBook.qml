@@ -367,7 +367,7 @@ Rectangle {
                 }
 
                 MoneroComponents.InlineButton {
-                    buttonColor: MoneroComponents.Style.orange
+                    buttonColor: MoneroComponents.Style.pepeGreen
                     fontFamily: FontAwesome.fontFamily
                     text: FontAwesome.qrcode
                     visible : appWindow.qrScannerEnabled && !addressLine.text

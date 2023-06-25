@@ -258,7 +258,7 @@ Rectangle {
                     color: MoneroComponents.Style.blackTheme ? "white" : "black"
                     Binding on color {
                         when: balancePart1MouseArea.containsMouse || balancePart2MouseArea.containsMouse
-                        value: MoneroComponents.Style.orange
+                        value: MoneroComponents.Style.pepeGreen
                     }
                     text: {
                         if (persistentSettings.fiatPriceEnabled && persistentSettings.fiatPriceToggle) {

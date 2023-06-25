@@ -181,7 +181,7 @@ Rectangle {
                 verticalAlignment: Text.AlignVCenter
                 visible: paymentRequestGridLayout.visible
                 font.pixelSize: 12
-                color: qrCodeTextMouseArea.containsMouse ? MoneroComponents.Style.orange : MoneroComponents.Style.defaultFontColor
+                color: qrCodeTextMouseArea.containsMouse ? MoneroComponents.Style.pepeGreen : MoneroComponents.Style.defaultFontColor
                 text: generateQRCodeString();
                 wrapMode: Text.WrapAnywhere
                 tooltip: qsTr("Copy payment request to clipboard") + translationManager.emptyString
@@ -441,7 +441,7 @@ Rectangle {
                 font.family: MoneroComponents.Style.fontRegular.name
                 font.pixelSize: 17
                 textFormat: Text.RichText
-                color: selectedAddressDrescriptionMouseArea.containsMouse ? MoneroComponents.Style.orange : MoneroComponents.Style.dimmedFontColor
+                color: selectedAddressDrescriptionMouseArea.containsMouse ? MoneroComponents.Style.pepeGreen : MoneroComponents.Style.dimmedFontColor
                 themeTransition: false
                 tooltip: subaddressListView.currentIndex > 0 ? qsTr("Edit address label") : "" + translationManager.emptyString
                 MouseArea {
@@ -468,7 +468,7 @@ Rectangle {
                 horizontalAlignment: TextInput.AlignHCenter
                 wrapMode: Text.Wrap
                 textFormat: Text.RichText
-                color: selectedAddressMouseArea.containsMouse ? MoneroComponents.Style.orange : MoneroComponents.Style.defaultFontColor
+                color: selectedAddressMouseArea.containsMouse ? MoneroComponents.Style.pepeGreen : MoneroComponents.Style.defaultFontColor
                 font.pixelSize: 15
                 font.family: MoneroComponents.Style.fontRegular.name
                 themeTransition: false

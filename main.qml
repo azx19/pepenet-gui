@@ -1939,7 +1939,7 @@ ApplicationWindow {
         }
 
         MoneroMerchant.MerchantTitlebar {
-            id: titleBarOrange
+            id: titleBarpepeGreen
             visible: persistentSettings.customDecorations && middlePanel.state === "Merchant"
             anchors.left: parent.left
             anchors.right: parent.right
